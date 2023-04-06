@@ -132,7 +132,7 @@ const Ai = ({ props, activeChat }) => {
  
 
   const transcribeAudio = async (audioBlob) => {
-    const apiKey = "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"; // Replace with your OpenAI API key
+    const apiKey = "xxx"; // Replace with your OpenAI API key
 
     const formData = new FormData();
     formData.append("file", audioBlob, "recording.wav");
